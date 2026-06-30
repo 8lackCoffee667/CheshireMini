@@ -1,0 +1,147 @@
+Perfect. I'll do both.
+Here's a much more complete version with expanded sections, while keeping the elegant, premium feel. I also refined the Lyndon section further to feel more exclusive.
+HTML<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheshire Mini Restorations | Lyndon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .heading { font-family: 'Playfair Display', serif; }
+        .lyndon-heading { font-family: 'Cormorant Garamond', serif; letter-spacing: 0.75em; }
+    </style>
+</head>
+<body class="bg-black text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-black/95 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <!-- Replace with your logo -->
+                <img src="https://via.placeholder.com/200x60/111111/FFFFFF?text=CHESHIRE+MINI" alt="Logo" class="h-9">
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm tracking-widest font-light">
+                <a href="#restorations" class="hover:text-emerald-400 transition">RESTORATIONS</a>
+                <a href="#gallery" class="hover:text-emerald-400 transition">GALLERY</a>
+                <a href="#workshop" class="hover:text-emerald-400 transition">THE WORKSHOP</a>
+                <a href="#lyndon" class="text-emerald-400 font-medium hover:text-white transition">LYNDON</a>
+                <a href="#about" class="hover:text-emerald-400 transition">ABOUT</a>
+                <a href="#journal" class="hover:text-emerald-400 transition">JOURNAL</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="min-h-screen bg-cover bg-center flex items-center" 
+             style="background-image: linear-gradient(rgba(17,17,17,0.75), rgba(17,17,17,0.85)), url('https://picsum.photos/id/1015/2000/1200');">
+        <div class="max-w-6xl mx-auto px-8">
+            <h1 class="heading text-6xl md:text-7xl leading-none font-light">
+                TWO HOUSES.<br>ONE ICON.
+            </h1>
+            <p class="mt-8 max-w-md text-xl text-gray-300">Preserving heritage. Creating the future.</p>
+        </div>
+    </section>
+
+    <!-- Restorations -->
+    <section id="restorations" class="py-28 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="heading text-6xl mb-6">Cheshire Mini Restorations</h2>
+            <p class="text-emerald-400 text-xl mb-12">Preserving Britain’s Icon with Authenticity</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="space-y-6">
+                    <h3 class="text-2xl">Full Restorations</h3>
+                    <p class="text-gray-400">Concours-level work. Every detail matters.</p>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl">Mechanical Rebuilds</h3>
+                    <p class="text-gray-400">Engine, suspension, brakes — done right.</p>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl">Body &amp; Paint</h3>
+                    <p class="text-gray-400">Rust repair, panel work, perfect finish.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lyndon - Enhanced -->
+    <section id="lyndon" class="min-h-screen py-32 relative overflow-hidden"
+             style="background: linear-gradient(rgba(0,0,0,0.92), rgba(0,0,0,0.95)), url('https://picsum.photos/id/201/2000/1200');">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="max-w-xl">
+                <!-- Replace with real Lyndon logo -->
+                <img src="https://via.placeholder.com/320x100/111111/cccccc?text=LYNDON" alt="Lyndon" class="mb-16">
+                
+                <h2 class="lyndon-heading text-8xl font-light text-white tracking-widest mb-6">LYNDON</h2>
+                <p class="text-3xl text-emerald-300 mb-10">Bespoke Commissioned Minis</p>
+                
+                <p class="text-xl text-gray-300 leading-relaxed">
+                    We do not restore Minis.<br>
+                    We create new chapters in their story.
+                </p>
+
+                <div class="mt-16 grid grid-cols-2 gap-x-12 text-sm">
+                    <div class="space-y-8">
+                        <div>01 Discovery</div>
+                        <div>02 Design</div>
+                        <div>03 Build</div>
+                        <div>04 Reveal</div>
+                    </div>
+                    <div class="text-emerald-400 space-y-8">
+                        <div>Modern Performance</div>
+                        <div>Luxury Interiors</div>
+                        <div>One-off Specifications</div>
+                        <div>Personal Commission</div>
+                    </div>
+                </div>
+
+                <a href="#" class="mt-20 inline-flex items-center gap-4 border border-emerald-400 hover:bg-emerald-400 hover:text-black px-10 py-6 rounded-full text-sm tracking-widest transition">
+                    START YOUR COMMISSION
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Teaser -->
+    <section id="gallery" class="py-28 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="heading text-5xl mb-12">Gallery</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="aspect-square bg-gray-900 rounded-3xl"></div>
+                <div class="aspect-square bg-gray-900 rounded-3xl"></div>
+                <div class="aspect-square bg-gray-900 rounded-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshop -->
+    <section id="workshop" class="py-28 bg-black">
+        <div class="max-w-7xl mx-auto px-8">
+            <h2 class="heading text-5xl mb-8">The Workshop</h2>
+            <p class="max-w-md text-gray-400">Where craftsmanship meets passion. Traditional skills, modern precision.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-28 bg-zinc-950">
+        <div class="max-w-3xl mx-auto px-8 text-center">
+            <h2 class="heading text-5xl mb-10">Begin the Conversation</h2>
+            <button onclick="alert('Enquiry form would go here in a full version')" 
+                    class="bg-white text-black px-12 py-6 rounded-full text-lg font-medium hover:bg-gray-200 transition">
+                Send Enquiry
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-black py-12 text-center text-xs text-gray-500 border-t border-gray-900">
+        <p>Cheshire Mini Restorations • Lyndon Bespoke • Handcrafted in England</p>
+    </footer>
+
+</body>
+</html>
